@@ -1,0 +1,47 @@
+label{
+  font-family: "Open Sans", serif;
+  font-size: 10pt;
+  display: block;
+  margin: 0px 0px 10px 0px;
+  alignment: left;
+}
+.redMessage{
+  color: red;
+  font-family: "Open Sans", serif;
+  font-size: 10pt;
+  margin: 5pt 5pt;
+}
+input{
+  margin-top: 3pt;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  border: 1px solid #C2C2C2;
+  box-shadow: 1px 1px 4px #EBEBEB;
+  -moz-box-shadow: 1px 1px 4px #EBEBEB;
+  -webkit-box-shadow: 1px 1px 4px #EBEBEB;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  padding: 7px;
+  outline: none;
+}
+input [type=submit]{
+  border: none;
+  padding: 8px 15px 8px 15px;
+  background: #FF8500;
+  color: #fff;
+  box-shadow: 1px 1px 4px #DADADA;
+  -moz-box-shadow: 1px 1px 4px #DADADA;
+  -webkit-box-shadow: 1px 1px 4px #DADADA;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+}
+
+input :focus{
+  border: 1px solid #0C0;
+}
+select{
+  margin-top: 3pt;
+}
